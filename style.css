@@ -1,0 +1,100 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Noto Sans HK', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+ color: #4c5365;
+ 
+ font-size: 27px;
+ border-bottom : 1px solid #ebe9e9;
+ padding-bottom: 13px;
+ padding-top: 17px;
+}
+#fruit{
+    text-align: center;
+    background-image: linear-gradient(#41464c, #60687c, #3e4448);
+    color: white;
+    padding: 15px;
+}
+#totalRs{
+    text-align: center;
+    font-size: 13px;
+}
+#totalRs button{
+     border: 1px solid #ebe9e9; 
+    
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 7px 25px;
+    font-weight: bold;
+    
+}
+#red{
+   
+    text-align: center;
+    background-color: #efe2cc;
+    padding: 35px;
+    
+}
+#red > span{
+    color: #eb513a;
+    font-size: 35px;
+   
+}
+
+ #fruitshop{
+    background-image: linear-gradient(#41464c, #60687c, #3e4448);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+     padding: 27px;
+      
+    margin: 0px; 
+    
+
+}
+div > #apple, #orange, #banana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+    border: none;
+    border-radius: 3px;
+    margin: 0px;
+
+}
+ h3{
+    
+    background-color: #346e34;
+    color: #abb382;
+    text-align: center;
+    padding: 9px 70px;
+    margin: 0px;
+}
+.btn{
+    background-color: #3e4448;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.class > p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
