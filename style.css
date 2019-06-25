@@ -22,26 +22,29 @@ h1{
     text-align: center;
     font-size: 13px;
 }
-#totalRs button{
-     border: 1px solid #ebe9e9; 
-    
+#totalRs input{
     background-color: #ffffff;
-    border-radius: 30px;
-    padding: 7px 25px;
+    border: 1px solid #ebe9e9; 
+    border-radius: 15px;
+    padding: 7px 0px;
+    width: 65px;
     font-weight: bold;
-    
+    text-align: center;
 }
 #red{
    
-    text-align: center;
+    text-align: center; 
     background-color: #efe2cc;
     padding: 35px;
     
 }
-#red > span{
+#red > #totalamount{
     color: #eb513a;
-    font-size: 35px;
-   
+    border: none;
+    background-color: #efe2cc;
+    font-weight: bold; 
+    font-size: 39px;
+    
 }
 
  #fruitshop{
@@ -50,11 +53,9 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
      padding: 27px;
-      
-    margin: 0px; 
-    
-
-}
+     margin-top: -17px;
+   
+ }
 div > #apple, #orange, #banana{
     display: flex;
     flex-direction: column;
@@ -74,7 +75,7 @@ div > #apple, #orange, #banana{
     padding: 9px 70px;
     margin: 0px;
 }
-.btn{
+.plus{
     background-color: #3e4448;
     text-align: center;
     border-radius: 30px;
@@ -85,12 +86,25 @@ div > #apple, #orange, #banana{
     margin-right: 15px;
     
 }
+.minus{
+    background-color: #3e4448;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .class > p{
     text-align: center;
 }
 
-
-
+#buyapple, #buyorange, #buybanana{
+    padding: 7px;
+    width: 55px;
+    text-align: center;
+}
 
 
 
