@@ -4,19 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
   <title>FRUIT</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,700,900&display=swap" rel="stylesheet">
-
+  
+ 
 </head>
 
 <body>
-    <main>
+  <main> 
     <h1>JS-FruitShop-task</h1>
     <h3 id="fruit">Fruit Shop</h3>
     
     <div id="amount">
-      <p id="totalRs"><strong>I have Rs.<button>28</button></strong></p>
-      <p id="red">Your total is Rs.<span>27</span></p>
+      <p id="totalRs"><strong>I have Rs.<input><strong></p>
+      <p id="red">Your total is Rs.<span id="totalamount"></span></p>
     </div>
+   
 
     <div id="fruitshop">
       
@@ -30,7 +31,10 @@
             <p><strong>Apple</strong></p>
           </figcaption>
         </figure>
-       <button class="btn"><input type="number" min="1" max="2"></button>
+       <button class="plus" onclick="addapple()"></button>
+       <input id="buyapple" type="number" class="apple-qty" min="0">
+        <button class="minus" onclick="minusapple()"></button>
+        
       </div>
       <div id="orange">
         <h3>Rs.15</h3>
@@ -40,7 +44,7 @@
         <p><strong>Orange</strong></p>
         </figcaption>
         </figure>
-        <button class="btn"><input type="number" min="1" max="1"></button>
+        <button class="btn" onclick="onBuying()"><input id="buyorange"></button>
       </div>
       <div id="banana">
         <h3>Rs.7</h3>
@@ -49,9 +53,10 @@
         
         <figcaption><p><strong>Banana</strong></p></figcaption>
         </figure>
-        <button class="btn"><input type="number" min="1" max="4"></button>
+        <button class="btn" onclick="onBuying()"><input id="buybanana"></button>
       </div>
     </div>
+    
 </main>
   <script src="script.js"></script>
 </body>
