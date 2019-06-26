@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+  <title>FRUIT</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+
+<body>
+  <main> 
+    <h1>JS-FruitShop-task</h1>
+    <h3 id="fruit">Fruit Shop</h3>
+    
+    <div id="amount">
+      <p id="totalRs"><strong>I have Rs.<input><strong></p>
+      <p id="red">Your total is Rs.<span id="totalamount"></span></p>
+    </div>
+   
+
+    <div id="fruitshop">
+      
+      <div id="apple">
+       
+        <h3>Rs.10</h3>
+
+        <figure>
+          <img src="images/apple.jpg" alt="apple" height="55" width="55">
+          <figcaption class="center">
+            <p><strong>Apple</strong></p>
+          </figcaption>
+        </figure>
+        <div class="btn">
+       <button class="add-qty" onclick="plusapple()"><i class="fa fa-plus"></i></button>
+       <input id="buyapple" type="number" min="0">
+        <button class="sub-qty" onclick="minusapple()"><i class="fa fa-minus"></i></button>
+        </div>
+      </div>
+      <div id="orange">
+        <h3>Rs.15</h3>
+        <figure>
+        <img class="img" src="images/oranges.jpg" alt="orange" height="55" width="55">
+        <figcaption>
+        <p><strong>Orange</strong></p>
+        </figcaption>
+        </figure>
+        <div class="btn">
+          <button class="add-qty" onclick="plusorange()"><i class="fa fa-plus"></i></button>
+          <input id="buyorange" type="number" min="0">
+           <button class="sub-qty" onclick="minusorange()"><i class="fa fa-minus"></i></button>
+           </div>
+      </div>
+      <div id="banana">
+        <h3>Rs.7</h3>
+        <figure>
+        <img src="images/banana.jpg" alt="banana" height="55" width="55">
+        
+        <figcaption><p><strong>Banana</strong></p></figcaption>
+        </figure>
+        <div class="btn">
+          <button class="add-qty" onclick="plusbanana()"><i class="fa fa-plus"></i></button>
+          <input id="buybanana" type="number" min="0">
+           <button class="sub-qty" onclick="minusbanana()"><i class="fa fa-minus"></i></button>
+           </div>
+      </div>
+    </div>
+    
+</main>
+  <script src="script.js"></script>
+</body>
+
+</html>
