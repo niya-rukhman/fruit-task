@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
   <title>FRUIT</title>
   <link rel="stylesheet" href="style.css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
 </head>
 
@@ -31,10 +31,11 @@
             <p><strong>Apple</strong></p>
           </figcaption>
         </figure>
-       <button class="plus" onclick="addapple()"></button>
-       <input id="buyapple" type="number" class="apple-qty" min="0">
-        <button class="minus" onclick="minusapple()"></button>
-        
+        <div class="btn">
+       <button class="add-qty" onclick="plusapple()"><i class="fa fa-plus"></i></button>
+       <input id="buyapple" type="number" min="0">
+        <button class="sub-qty" onclick="minusapple()"><i class="fa fa-minus"></i></button>
+        </div>
       </div>
       <div id="orange">
         <h3>Rs.15</h3>
@@ -44,7 +45,11 @@
         <p><strong>Orange</strong></p>
         </figcaption>
         </figure>
-        <button class="btn" onclick="onBuying()"><input id="buyorange"></button>
+        <div class="btn">
+          <button class="add-qty" onclick="plusorange()"><i class="fa fa-plus"></i></button>
+          <input id="buyorange" type="number" min="0">
+           <button class="sub-qty" onclick="minusorange()"><i class="fa fa-minus"></i></button>
+           </div>
       </div>
       <div id="banana">
         <h3>Rs.7</h3>
@@ -53,7 +58,11 @@
         
         <figcaption><p><strong>Banana</strong></p></figcaption>
         </figure>
-        <button class="btn" onclick="onBuying()"><input id="buybanana"></button>
+        <div class="btn">
+          <button class="add-qty" onclick="plusbanana()"><i class="fa fa-plus"></i></button>
+          <input id="buybanana" type="number" min="0">
+           <button class="sub-qty" onclick="minusbanana()"><i class="fa fa-minus"></i></button>
+           </div>
       </div>
     </div>
     
