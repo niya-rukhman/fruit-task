@@ -18,32 +18,50 @@ h1{
     color: white;
     padding: 15px;
 }
-#totalRs{
+#para{
     text-align: center;
-    font-size: 13px;
 }
-#totalRs input{
+
+/* #addCash{
     background-color: #ffffff;
     border: 1px solid #ebe9e9; 
     border-radius: 15px;
     padding: 7px 0px;
+    height: 25px;
     width: 65px;
     font-weight: bold;
     text-align: center;
+    font-size: 13px;
+
+
 }
+   */
+ #totalRs{
+    background-color: #ffffff;
+    border: 1px solid #ebe9e9; 
+    border-radius: 15px;
+    padding: 7px 0px;
+    height: 25px;
+    width: 65px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+
+} 
 #red{
    
     text-align: center; 
     background-color: #efe2cc;
-    padding: 35px;
+    padding: 55px;
     
 }
-#red > #totalamount{
+#totalAmount{
     color: #eb513a;
     border: none;
     background-color: #efe2cc;
     font-weight: bold; 
     font-size: 39px;
+    
     
 }
 
@@ -100,17 +118,17 @@ div > #apple, #orange, #banana{
     margin-bottom: 10px;
      
 }
-#buyapple{
+#buyApple{
      height: 30px;
      width: 30px;
 }    
 
-#buyorange{
+#buyOrange{
     height: 30px;
     width: 30px;
 }    
 
-#buybanana{
+#buyBanana{
     height: 30px;
     width: 30px;
 }    
